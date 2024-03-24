@@ -1,0 +1,58 @@
+body {
+  font-family: Kristen ITC;
+  background-image: url(img/park.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #ffd741;
+  margin-left: 7em;
+}
+
+button {
+  font-family: Kristen ITC;
+  font-size: 32px;
+  color: white;
+  background-color: #304fff;
+  display: flex;
+  margin: 2em;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.needs-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.need-bar {
+  width: 100px;
+  height: 20px;
+  border: 0.2em solid black;
+  position: relative;
+}
+
+.need-fill {
+  height: 100%;
+  background-color: #ffd741;
+  width: 0%;
+}
+
+.need-bar span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: -25px;
+  color: white;
+}

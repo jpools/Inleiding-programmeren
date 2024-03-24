@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WinniePet</title>
+  </head>
+  <body>
+    <h1>WinniePet</h1>
+    <section>
+      <img
+        src="img/winniepet-normal.png"
+        alt="Winnie Pet normal state."
+        id="winniepet"
+      />
+    </section>
+    <div class="needs-container">
+      <div class="need-bar" id="hunger-bar">
+        <div class="need-fill" id="hunger-fill"></div>
+        <span>Hunger</span>
+      </div>
+      <div class="need-bar" id="fun-bar">
+        <div class="need-fill" id="fun-fill"></div>
+        <span>Fun</span>
+      </div>
+      <div class="need-bar" id="sleep-bar">
+        <div class="need-fill" id="sleep-fill"></div>
+        <span>Sleep</span>
+      </div>
+    </div>
+    <div class="button-container">
+      <button type="button" id="feed-button">Feed</button>
+      <button type="button" id="play-button">Play</button>
+      <button type="button" id="sleep-button">Sleep</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
